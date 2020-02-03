@@ -1,0 +1,11 @@
+#header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 60px;
+    background-color: #047fb4;
+    z-index: 1000;
+}

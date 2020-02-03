@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ray Luberto | Portfolio</title>
 
+    <link rel="stylesheet" href="stylesheets/header.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <style>
     
         body{
@@ -23,8 +27,17 @@
 
     </style>
 
+<script> 
+    $(function(){
+      $("#headerInsert").load("header.html");
+    });
+</script> 
+
 </head>
 <body>
+
+    <div id="headerInsert"></div>
+    
 
     <video id="landingVideo" autoplay loop muted>
         <source src="videos/landing.mp4">
